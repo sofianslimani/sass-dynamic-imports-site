@@ -1,9 +1,9 @@
 ---
-sidebar_position: 6
 ---
 
 # Installation
-Learn how to get Sass Dynamic imports up and running in your project.
+
+### Learn how to get Sass Dynamic imports up and running in your project.
 
 ## Install Sass
 
@@ -39,13 +39,3 @@ Add this scripts on your package.json "scripts" key:
   "dev": "concurrently --kill-others \"next dev\" \"npm run dev:sass\"",
  }
 ```
-
-## Usage
-
-in scss file:
-
-```scss
-  @import './[folder_name]/**/*.scss';
-```
-
-will watch all scss files on any folder on [folder_name] folder
