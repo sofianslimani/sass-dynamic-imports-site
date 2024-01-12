@@ -4,57 +4,57 @@
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
-import { themes as prismThemes } from 'prism-react-renderer';
+import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Sass Dynamic Imports',
-  tagline: 'Import dynamically scss files in dynamic folders',
-  favicon: 'img/favicon.ico',
+  title: "Sass Dynamic Imports",
+  tagline: "Import dynamically scss files in dynamic folders",
+  favicon: "img/logo-sdi.png",
 
   // Set the production url of your site here
-  url: 'https://sass-dynamic-imports.vercel.app/',
+  url: "https://sass-dynamic-imports.vercel.app/",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: "/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'sofianslimani', // Usually your GitHub org/user name.
-  projectName: 'sass-dynamic-imports', // Usually your repo name.
+  organizationName: "sofianslimani", // Usually your GitHub org/user name.
+  projectName: "sass-dynamic-imports", // Usually your repo name.
 
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: "en",
+    locales: ["en"],
   },
 
   presets: [
     [
-      'classic',
+      "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: './sidebars.js',
+          sidebarPath: "./sidebars.js",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
         },
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: "./src/css/custom.css",
         },
       }),
     ],
@@ -64,67 +64,67 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: "img/docusaurus-social-card.jpg",
       navbar: {
-        title: 'Sass Dynamic Imports',
+        title: "Sass Dynamic Imports",
         logo: {
-          alt: 'Sass Dynamic Imports Logo',
-          src: 'img/logo.svg',
+          alt: "Sass Dynamic Imports Logo",
+          src: "img/logo-sdi.svg",
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'mySidebar',
-            position: 'left',
-            label: 'Documentation',
+            type: "docSidebar",
+            sidebarId: "mySidebar",
+            position: "left",
+            label: "Documentation",
           },
           /*  { to: '/blog', label: 'Blog', position: 'left' }, */
           {
-            href: 'https://github.com/ThomasCardiet/sass-dynamic-imports',
-            label: 'GitHub',
-            position: 'right',
+            href: "https://github.com/ThomasCardiet/sass-dynamic-imports",
+            label: "GitHub",
+            position: "right",
           },
         ],
       },
       footer: {
-        style: 'dark',
+        style: "dark",
         links: [
           {
-            title: 'Docs',
+            title: "Docs",
             items: [
               {
-                label: 'Getting Started',
-                to: '/docs/getting-started/installation',
+                label: "Getting Started",
+                to: "/docs/getting-started/installation",
               },
             ],
           },
           {
-            title: 'Community',
+            title: "Community",
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: "Stack Overflow",
+                href: "https://stackoverflow.com/questions/tagged/docusaurus",
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: "Discord",
+                href: "https://discordapp.com/invite/docusaurus",
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: "Twitter",
+                href: "https://twitter.com/docusaurus",
               },
             ],
           },
           {
-            title: 'More',
+            title: "More",
             items: [
               {
-                label: 'GitHub',
-                href: 'https://github.com/ThomasCardiet/sass-dynamic-imports',
+                label: "GitHub",
+                href: "https://github.com/ThomasCardiet/sass-dynamic-imports",
               },
               {
-                label: 'NPM',
-                href: 'https://www.npmjs.com/package/sass-dynamic-imports',
+                label: "NPM",
+                href: "https://www.npmjs.com/package/sass-dynamic-imports",
               },
             ],
           },

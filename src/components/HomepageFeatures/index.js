@@ -4,37 +4,35 @@ import styles from "./styles.module.css";
 
 const FeatureList = [
   {
-    title: "Imports Sass Dynamiques",
-    Svg: require("@site/static/img/undraw_docusaurus_mountain.svg").default,
+    title: "Dynamic Sass Imports",
+    Svg: require("@site/static/img/undraw_web_devices.svg").default,
     description: (
       <>
-        "sass-dynamic-imports" facilite l'importation dynamique de fichiers Sass
-        dans vos projets, permettant une organisation plus flexible et une
-        meilleure modularité de votre code CSS.
+        "sass-dynamic-imports" streamlines dynamic importing of Sass files into
+        your projects, enabling more flexible organization and enhanced
+        modularity of your CSS code.
       </>
     ),
   },
   {
-    title: "Configuration Simplifiée",
-    Svg: require("@site/static/img/undraw_docusaurus_tree.svg").default,
+    title: "Simplified Configuration",
+    Svg: require("@site/static/img/undraw_proud_coder.svg").default,
     description: (
       <>
-        Configurez rapidement votre projet pour utiliser des imports Sass
-        dynamiques. La bibliothèque est conçue pour être facilement intégrée et
-        utilisée, vous permettant de vous concentrer sur l'écriture de styles
-        efficaces et maintenables.
+        Quickly set up your project to use dynamic Sass imports. The library is
+        designed for easy integration and usage, allowing you to focus on
+        writing efficient and maintainable styles.
       </>
     ),
   },
   {
-    title: "Compatible avec les Projets Modernes",
-    Svg: require("@site/static/img/undraw_docusaurus_react.svg").default,
+    title: "Compatible with Modern Projects",
+    Svg: require("@site/static/img/undraw_building_websites.svg").default,
     description: (
       <>
-        Conçue pour s'intégrer parfaitement avec les architectures de projets
-        modernes, "sass-dynamic-imports" s'adapte à vos besoins de
-        développement, qu'il s'agisse de petits projets ou de grandes bases de
-        code avec Sass.
+        Designed to seamlessly integrate with modern project architectures,
+        "sass-dynamic-imports" adapts to your development needs, whether for
+        small projects or large codebases with Sass.
       </>
     ),
   },
